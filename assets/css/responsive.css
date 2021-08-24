@@ -1,0 +1,123 @@
+/* Pc */
+@media (min-width: 1024px) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 740px) {
+    /* Columns fixed mobile */
+    .col-half-mobile {
+        width: 100%;
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    .col-third-mobile {
+        width: 100%;
+    }
+
+    .col-mobile-img {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .col-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        display: none;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 4px ​32px;
+    }
+
+    #nav .subnav li {
+        border: none;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #content .member-img {
+        width: 230px;
+    }
+    
+    #content .content-section {
+        margin-bottom: -16px;
+    }
+
+    #slider .text-content {
+        font-size: 8px;
+        width: 100%;
+        padding: 6px 16px;
+    }
+
+    #slider .text-description {
+        margin: 1px 0;
+        width: 100%;
+        text-align: center; 
+    }
+
+    .tour-ticket li {
+        padding: 10px 16px;
+    }
+
+    .message-inpt {
+        margin-top: -8px;
+    }
+
+    #map {
+        margin-top: 90px;
+    }
+
+    .modal {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .modal .modal-container {
+        min-width: 100%;
+        margin-top: 34px;
+    }
+
+    .modal .modal-close {
+        padding: 10px 12px;
+        font-size: 20px;
+    }
+
+}
