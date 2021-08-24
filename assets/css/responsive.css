@@ -17,7 +17,7 @@
     }
 
     .modal .modal-container {
-        min-width: 740px;
+        min-width: 740px
     }
 
     .modal .modal-close {
@@ -121,12 +121,12 @@
     }
 
     .modal {
-        margin-left: 8px;
-        margin-right: 8px;
+        padding-right: 4px;
+        padding-left: 4px;
     }
 
     .modal .modal-container {
-        min-width: 100%;
+        min-width: 97%;
         margin-top: 34px;
     }
 
