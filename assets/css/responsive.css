@@ -17,7 +17,7 @@
     }
 
     .modal .modal-container {
-        min-width: 740px !important
+        min-width: 740px;
     }
 
     .modal .modal-close {
