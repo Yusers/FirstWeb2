@@ -6,10 +6,25 @@
 }
 
 /* Tablet */
-@media (max-width: 1023px) and (min-width: 740px) {
+@media (min-width: 740px) and (max-width: 1023px) {
     #header .mobile-menu-btn {
         display: none;
     }
+    
+    .modal .modal-close {
+        padding: 8px 12px;
+        font-size: 25px;
+    }
+
+    .modal .modal-container {
+        min-width: 740px !important
+    }
+
+    .modal .modal-close {
+        padding: 8px 12px;
+        font-size: 30px;
+    }
+
 }
 
 
